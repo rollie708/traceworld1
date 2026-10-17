@@ -1,0 +1,20 @@
+<svg width="560" height="285" viewBox="0 0 560 285" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gold" x1="118" y1="32" x2="436" y2="152" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF0B3"/><stop offset=".28" stop-color="#C8903B"/><stop offset=".52" stop-color="#FFE49A"/><stop offset=".78" stop-color="#A56D2A"/><stop offset="1" stop-color="#F6C96D"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <g filter="url(#glow)" opacity=".95">
+    <path d="M154 75C173 35 217 13 271 13C305 13 336 21 361 35" stroke="url(#gold)" stroke-width="2"/>
+    <path d="M379 52C403 76 416 108 416 137C416 153 413 166 408 178" stroke="url(#gold)" stroke-width="2"/>
+    <path d="M153 82C142 104 138 127 142 149C148 177 168 195 195 207" stroke="url(#gold)" stroke-width="2" transform="translate(0 -22)"/>
+    <circle cx="366" cy="43" r="7" fill="#FFE4A0"/><circle cx="151" cy="78" r="5" fill="#D99A45"/><circle cx="178" cy="159" r="6" fill="#FFE4A0"/><circle cx="402" cy="153" r="6" fill="#D99A45"/>
+  </g>
+  <path d="M197 55H363L348 78H212L197 55Z" fill="url(#gold)" stroke="#FFE8A9" stroke-width="1"/>
+  <path d="M263 77H297V131L280 114L263 131V77Z" fill="url(#gold)"/>
+  <path d="M196 90H226L263 145L280 127L297 145L334 90H364L308 166L280 142L252 166L196 90Z" fill="url(#gold)" stroke="#FFE8A9" stroke-width="1"/>
+  <path d="M273 166H287V190L280 199L273 190V166Z" fill="url(#gold)"/>
+  <text x="280" y="245" text-anchor="middle" fill="#F0EEE8" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="600" letter-spacing="12">TRACE<tspan fill="url(#gold)">WORLD</tspan></text>
+  <text x="280" y="273" text-anchor="middle" fill="#D9D7CF" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="7">DECODE  ·  TRACE  ·  UNDERSTAND</text>
+</svg>
